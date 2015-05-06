@@ -5,12 +5,23 @@
 }
 .cabecera{
     background: dodgerblue;
-    colo:black;
+    color:black;
 }
-h2{
+h1{
     color:aliceblue;
     text-align: center;
     line-height: inherit;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+}
+.subtitulo{
+    text-align: center;
 }
 .nav :hover{
     color: black;
@@ -21,12 +32,22 @@ h2{
     color: rgba(190, 229, 144, 0.9) !important;
 	display:block;
 }
-
-h3{
-    text-align: center;
-}
 .cuerpo{
     text-align: justify;
     font-size: 20px;
-    padding: 55px;
+    padding: 160px;  
+}
+.contenedora{
+  background-image:url(images/fondo.jpg);
+    background-position: center; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;  
+}
+footer {
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	background-color: dodgerblue;
+	position: absolute;
+	bottom: 0;
 }
